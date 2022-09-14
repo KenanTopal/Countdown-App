@@ -11,7 +11,7 @@ const countDown = () => {
   const kavustayDay = Math.floor(gap / days);
   const kavustayHours = Math.floor(gap/hours)%24
   const kavustayMins = Math.floor(gap/minutes)%60
-  const kavustaySecs = (Math.floor(gap/second)%60) +1
+  const kavustaySecs = (Math.floor(gap/second)%60)
   
   document.querySelector('.day').innerHTML = kavustayDay;
   document.querySelector('.hour').innerHTML = kavustayHours;
